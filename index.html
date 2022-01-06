@@ -8,30 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header >
-        <h1>V portfolio</h1>
-        <div class="logo">
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFyRd1Gp34M5g/profile-displayphoto-shrink_200_200/0/1616318548972?e=1645056000&v=beta&t=sJKikSIbS2niNfNoFU-Fk6EtsKhKHW9pqE2H506thhw" alt="">
-        </div>
-
-        <img src="https://pbs.twimg.com/profile_images/1029103648285097986/D-WbJmiD_400x400.jpg" alt="">
         
-        <img src="https://www.ophthalsj.com/assets/images/speakers/vaishali_mehmi.png" alt="">
 
-        <!-- https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-
-        https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-
-        https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-
-        https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500
-
-        https://images.pexels.com/photos/716398/pexels-photo-716398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 -->
-
-        <button class="nav-toggle" aria-label="toggle navigation"></button>
+        <div class="logo">
+            <img src="./VM Design Logo (4).png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"a href="#home" class="nav__link"> Home</a></li>
@@ -42,15 +31,22 @@
         </nav>
     </header>
 
+   
+        
+        <!-- <img src="https://www.ophthalsj.com/assets/images/speakers/vaishali_mehmi.png" alt=""> -->
+
+        
+
     <section class="intro" id="home">
-        <h1 class="section__title section__title__intro">
-            Hi, I'm <strong> Vaishali Mehmi</strong>
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Vaishali Mehmi</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src=" https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="computer workspace">
+        <img class="intro__img" src="https://media-exp1.licdn.com/dms/image/C4D03AQFyRd1Gp34M5g/profile-displayphoto-shrink_200_200/0/1616318548972?e=1645056000&v=beta&t=sJKikSIbS2niNfNoFU-Fk6EtsKhKHW9pqE2H506thhw" alt="smiling picture of vaishali mehmi">
+        
     </section>
 
-    <section class="my-services">
+    <section class="my-services" id="services">
 <h2 class="section__title section__title--services">What I do</h2>
 <div class="services">
     <div class="service">
@@ -87,24 +83,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe modi
 
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">React developer & UX Designer</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p> </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sed, velit veniam impedit dolorum vitae excepturi tempore odit qui aut tempora, inventore placeat dignissimos voluptates error fugit non? Labore, ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia quos nihil nisi quo dolores, quas aperiam fugit accusantium totam explicabo placeat deleniti iure, similique ad voluptates. Non, natus a. </p>
         </div>
-        <img src="https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <img src="https://pbs.twimg.com/profile_images/1029103648285097986/D-WbJmiD_400x400.jpg" alt="">
     </section>
 
-    
-
-        
-
-        
-
-        
-
-        
     <section class="my-work" id="work">
 <h2 class="section__title">My work</h2>
 <p class="section__subtitle"></p>
@@ -134,7 +121,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe modi
     </a>
 
     <a href="#" class="portfolio__item">
-        <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="portfolio__img">
+        <img src=" https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="computer workspace" class="portfolio__img">
     </a>
 
     <a href="#" class="portfolio__item">
